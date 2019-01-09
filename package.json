@@ -1,37 +1,16 @@
 {
-  "_from": "code-push-cli",
-  "_id": "code-push-cli@2.1.9",
-  "_inBundle": false,
-  "_integrity": "sha512-FslR8Bc6uh7b9jqiMpzn+jWq96W5cL0eyGflNUDBSPbg8tzD4X0D+Qb0O+ZUmP3yennBatAU/8VigHagwsUYYA==",
-  "_location": "/code-push-cli",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "code-push-cli",
-    "name": "code-push-cli",
-    "escapedName": "code-push-cli",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/code-push-cli/-/code-push-cli-2.1.9.tgz",
-  "_shasum": "e6ae5a5bca4f4d783b0436d5ccb019eb680a2275",
-  "_spec": "code-push-cli",
-  "_where": "/Users/djs",
   "author": {
-    "name": "Microsoft Corporation"
+    "name": "Lewan base"
   },
   "bin": {
-    "code-push": "script/cli.js"
+    "push-lewan": "script/cli.js"
   },
   "bugs": {
-    "url": "https://github.com/Microsoft/code-push/issues"
+    "url": "https://github.com/djsGeek/code-djs/issues",
+    "email": "djs_it@163.com"
   },
   "bundleDependencies": false,
+  "devDependencies": {},
   "dependencies": {
     "backslash": "^0.1.7",
     "base-64": "^0.1.0",
@@ -45,7 +24,7 @@
     "moment": "^2.21.0",
     "opener": "^1.4.1",
     "parse-duration": "0.1.1",
-    "plist": "1.2.0",
+    "plist": "^3.0.1",
     "progress": "^1.1.8",
     "prompt": "^0.2.14",
     "properties": "^1.2.1",
@@ -63,24 +42,25 @@
     "yazl": "^2.4.1"
   },
   "deprecated": false,
-  "description": "Management CLI for the CodePush service",
-  "homepage": "https://microsoft.github.io/code-push",
+  "description": "Lewan code update service",
+  "homepage": "https://github.com/djsGeek/code-djs#readme",
   "keywords": [
     "code",
     "push",
     "cordova",
     "react-native",
+    "push-lewan",
     "react"
   ],
-  "license": "MIT",
+  "license": "ISC",
   "main": "script/cli.js",
-  "name": "code-push-cli",
+  "name": "push-lewan",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Microsoft/code-push.git"
+    "url": "git+https://github.com/djsGeek/code-djs.git"
   },
   "scripts": {
     "test": "gulp test"
   },
-  "version": "2.1.9"
+  "version": "1.0.1"
 }

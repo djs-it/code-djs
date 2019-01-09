@@ -502,6 +502,7 @@ function initiateExternalAuthenticationAsync(action, serverUrl) {
         // For "link" there shouldn't be a token prompt, so we go straight to the Mobile Center URL to avoid that
         exports.log(message);
         var url = serverUrl || AccountManager.MOBILE_CENTER_SERVER_URL;
+        exports.log("initiateExternalAuthenticationAsync==link===" + url);
         opener(url);
     }
     else {
@@ -510,6 +511,8 @@ function initiateExternalAuthenticationAsync(action, serverUrl) {
         exports.log(message);
         var hostname = os.hostname();
         var url = (serverUrl || AccountManager.SERVER_URL) + "/auth/" + action + "?hostname=" + hostname;
+        exports.log("initiateExternalAuthenticationAsync=url==" + url);
+        exports.log("initiateExternalAuthenticationAsync=AccountManager.SERVER_URL==" + AccountManager.SERVER_URL);
         opener(url);
     }
 }
@@ -1229,7 +1232,7 @@ function requestAccessKey() {
         prompt.get({
             properties: {
                 response: {
-                    description: chalk.cyan("Enter your token from the browser: ")
+                    description: chalk.cyan("Enter your token from the browser:")
                 }
             }
         }, function (err, result) {
