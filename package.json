@@ -6,10 +6,11 @@
     "push-lewan": "script/cli.js"
   },
   "bugs": {
-    "url": "https://github.com/Microsoft/code-push/issues",
+    "url": "https://github.com/djsGeek/code-djs/issues",
     "email": "djs_it@163.com"
   },
   "bundleDependencies": false,
+  "devDependencies": {},
   "dependencies": {
     "backslash": "^0.1.7",
     "base-64": "^0.1.0",
@@ -42,7 +43,7 @@
   },
   "deprecated": false,
   "description": "Lewan code update service",
-  "homepage": "http://www.lewangame.net",
+  "homepage": "https://github.com/djsGeek/code-djs#readme",
   "keywords": [
     "code",
     "push",
@@ -51,12 +52,12 @@
     "push-lewan",
     "react"
   ],
-  "license": "MIT",
+  "license": "ISC",
   "main": "script/cli.js",
   "name": "push-lewan",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Microsoft/code-push.git"
+    "url": "git+https://github.com/djsGeek/code-djs.git"
   },
   "scripts": {
     "test": "gulp test"
